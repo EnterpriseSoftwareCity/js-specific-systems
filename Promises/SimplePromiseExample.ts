@@ -1,4 +1,4 @@
-const operation = new Promise((resolve, reject) => {
+const operation: Promise<string> = new Promise((resolve, reject) => {
     const operation: boolean = true;
 
     if (operation) {
